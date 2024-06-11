@@ -1,0 +1,36 @@
+body {
+  background-image: url("./img/drbackground.jpg");
+  /* background-image: url("./img/frame1.png"); */
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+.add-button {
+  background-image: url("./img/addBtn.png");
+  background-size: cover; /* Skaliert das Bild, um den gesamten Hintergrund abzudecken */
+  background-position: center; /* Zentriert das Bild */
+  background-repeat: no-repeat; /* Verhindert das wiederholen des Bildes */
+  width: 354px; /* Breite des Buttons, anpassen wie gewünscht */
+  height: 66px; /* Höhe des Buttons, anpassen wie gewünscht */
+  border: none; /* Entfernt den Standardrahmen des Buttons */
+  cursor: pointer; /* Ändert den Mauszeiger zu einem Zeiger */
+}
+
+.delete-button {
+  background: url("./img/button1.png");
+  width: 273px;
+  height: 115px;
+}
+
+.input-field {
+  width: 300px; /* Breite des Eingabefeldes */
+  height: 40px; /* Höhe des Eingabefeldes */
+  padding: 10px; /* Innenabstand des Eingabefeldes */
+  font-size: 16px; /* Schriftgröße des Textes im Eingabefeld */
+  border: 2px solid #ccc; /* Rahmen des Eingabefeldes */
+  border-radius: 5px; /* Abrundung der Ecken */
+}
+
+.text {
+  font-size: 80px;
+}
